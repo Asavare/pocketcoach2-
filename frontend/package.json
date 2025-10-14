@@ -1,0 +1,17 @@
+{
+  "name": "pocketcoach-frontend",
+  "version": "0.2.0",
+  "private": true,
+  "scripts": {
+    "start": "parcel index.html --port 3000",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "chart.js": "^4.4.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}

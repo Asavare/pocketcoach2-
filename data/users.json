@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "name": "Alex",
+    "email": "teen@example.com",
+    "password": "pass",
+    "balance": 1000,
+    "points": 0,
+    "badges": []
+  }
+]

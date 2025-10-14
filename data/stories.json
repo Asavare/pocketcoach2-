@@ -1,0 +1,71 @@
+[
+  {
+    "title": "The New Phone",
+    "text": "You want a new phone that costs \u20b920,000. You have \u20b95,000.",
+    "options": [
+      {
+        "text": "Buy now using EMI (fees)",
+        "effect": {
+          "money": -5000,
+          "points": -10
+        }
+      },
+      {
+        "text": "Save monthly \u20b91000",
+        "effect": {
+          "money": 1000,
+          "points": 10
+        }
+      },
+      {
+        "text": "Take a weekend tutoring gig +\u20b92000",
+        "effect": {
+          "money": 2000,
+          "points": 20,
+          "badge": "SideGigStarter"
+        }
+      }
+    ]
+  },
+  {
+    "title": "School Project",
+    "text": "A last-minute project requires materials worth \u20b9800.",
+    "options": [
+      {
+        "text": "Borrow from parents (repay)",
+        "effect": {
+          "money": -200,
+          "points": 0
+        }
+      },
+      {
+        "text": "Cut entertainment for two weeks and save",
+        "effect": {
+          "money": 400,
+          "points": 8
+        }
+      }
+    ]
+  },
+  {
+    "title": "Scam Offer",
+    "text": "A message promises doubling of \u20b9500 overnight.",
+    "options": [
+      {
+        "text": "Investigate and decline",
+        "effect": {
+          "money": 0,
+          "points": 15,
+          "badge": "ScamAware"
+        }
+      },
+      {
+        "text": "Invest and lose it",
+        "effect": {
+          "money": -500,
+          "points": -25
+        }
+      }
+    ]
+  }
+]
